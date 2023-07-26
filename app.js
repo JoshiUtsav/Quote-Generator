@@ -20,7 +20,7 @@ const getNewQuotes = () => {
 
   // Display the quote and author on the page
   quotes.innerHTML = `<h1>${quoteData.text}</h1>`;
-  authors.innerHTML = `<h4>- ${quoteData.author || "Unknown"}</h4>`;
+  authors.innerHTML = `<h4>-By ${quoteData.author || "Unknown"}</h4>`;
 };
 
 const getQuotes = async () => {
